@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { HiBars3, HiXMark } from "react-icons/hi2";
-import { nav_links } from "../../../constants/navigation";
+import { nav_links } from "../../constants/navigation";
 import { MotionButton, MotionDiv } from "../framer_motion/MotionElements";
 
 type Props = {};

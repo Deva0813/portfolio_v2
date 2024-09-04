@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root {
-
+    --support-color-1:#AD00FF;
+    --support-color-2:#FF00C7;  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -12,8 +13,13 @@
   }
 }
 
-body {
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 64px;
+}   
 
+
+body{
 }
 
 @layer utilities {
